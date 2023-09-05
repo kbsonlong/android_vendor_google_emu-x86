@@ -83,6 +83,7 @@ binwalk -e \
     --depth 1 \
     --count 1 \
     -y 'filesystem' \
+    --run-as=root \
     super.img # only search for filesystem signatures
 
 # 1048576       0x100000        \
